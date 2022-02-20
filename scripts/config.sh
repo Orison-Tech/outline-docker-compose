@@ -1,5 +1,5 @@
 # The url used to vist this web site.
-URL=http://127.0.0.1:8889
+URL=http://10.0.0.20:8889
 # The default interface language. See translate.getoutline.com for a list of
 # available language codes and their rough percentage translated.
 DEFAULT_LANGUAGE=en_US
@@ -13,7 +13,7 @@ FORCE_HTTPS=false
 # The nginx bind ip and port.
 # If you use ip address to access outline, this ip and port should be same as the URL.
 # If this server behind a proxy(nginx), you can bind to `127.0.0.1`.
-HTTP_IP=127.0.0.1
+HTTP_IP=0.0.0.0
 HTTP_PORT_IP=8889
 
 # Docker
